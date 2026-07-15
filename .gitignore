@@ -1,0 +1,49 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+
+# Oracle wallets and certificates
+wallet/
+Wallet_*/
+*.pem
+*.key
+*.p12
+*.sso
+cwallet.sso
+ewallet.p12
+tnsnames.ora
+sqlnet.ora
+ojdbc.properties
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# macOS and editors
+.DS_Store
+.vscode/
+.idea/
+
+# Runtime artifacts
+logs/
+*.log
+tmp/
+run/
+
+# Models and generated datasets
+models/*.onnx
+data/generated/
+
+# Terraform state and secrets
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
